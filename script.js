@@ -64,12 +64,12 @@ function checkWinner(){
   let p2=document.getElementById("computer_score");
   let firstValue = parseInt(p1.innerText);
   let secondValue = parseInt(p2.innerText);
-  if (firstValue==3){
+  if (firstValue==5){
       PlayerWin();
       p1.innerText = "0";
       p2.innerText = "0";
   } 
-  else if (secondValue==3){
+  else if (secondValue==5){
       ComputerWin();
       p1.innerText = "0";
       p2.innerText = "0";
